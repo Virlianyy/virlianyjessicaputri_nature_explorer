@@ -54,9 +54,23 @@ class NatureExplorerScreen extends StatelessWidget {
               child: SizedBox(
                 width: 200,
                 child: Text(
-                  'Nature Explorer',
-                  
+                  'A Peaceful Natural Escape',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 22,
+                    fontWeight: FontWeight.bold,
+                    letterSpacing: 2,
+                    color: Colors.green,
+                  ),
                 ),
+              ),
+            ),
+            SizedBox(
+              height:
+                itemHeight,
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                padding: const EdgeInsets.symmetric(horizontal: 20),
               ),
             )
           ],
