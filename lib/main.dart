@@ -71,6 +71,10 @@ class NatureExplorerScreen extends StatelessWidget {
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 padding: const EdgeInsets.symmetric(horizontal: 20),
+                itemCount: Images.length,
+                itemBuilder: (context, index) {
+                  
+                },
               ),
             )
           ],
